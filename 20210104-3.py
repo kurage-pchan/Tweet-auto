@@ -20,4 +20,4 @@ schedule.every().day.at("17:00").do(tweet)#指定時刻
 while True:
             schedule.run_pending()
             time.sleep(1)
-import line_10
+import line_10#自身のLINEに実行終了を送信
